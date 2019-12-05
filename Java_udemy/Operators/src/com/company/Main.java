@@ -52,5 +52,48 @@ public class Main {
             System.out.println("It is not an Alien!!");
             System.out.println("And I am scared of aliens");
         }
+        int topScore = 80;
+        if (topScore < 100) {
+            System.out.println("You got the high score!");
+        }
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
+        }
+
+        int newValue = 50;
+
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+
+        if (isCar) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        boolean wasCar = isCar ? true : false;
+
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+            double myValueOne = 20d;
+            double myValueTwo = 80d;
+
+            double myTotal = ((myValueOne + myValueTwo) * 100d) % 40d;
+            boolean zero = myTotal == 0 ? true : false;
+            System.out.println(myTotal);
+            System.out.println(zero);
+
+            if (!zero) {
+                System.out.println("Got some remainder");
+        }
+
     }
 }

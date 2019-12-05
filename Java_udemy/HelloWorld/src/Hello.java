@@ -14,3 +14,12 @@ public class Hello {
 
     }
 }
+//      Primitive data types:
+//                        int
+//                        boolean
+//                        byte
+//                        char
+//                        short
+//                        long
+//                        float
+//                        double
